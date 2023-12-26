@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__wrapper {
+  position: relative;
+}
+
+.input {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-color: #000;
+  background-color: transparent;
+}
+
+.input_placeholder {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  border-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
